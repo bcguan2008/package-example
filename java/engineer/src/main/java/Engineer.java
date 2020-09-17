@@ -8,4 +8,10 @@ public class Engineer extends Human{
         System.out.println("i am coding now!");
     }
 
+    public static void main(String[] args){
+        new Engineer().coding();
+        new Engineer().useTool();
+        //System.out.println(new Engineer().sayHelloWorld());
+    }
+
 }

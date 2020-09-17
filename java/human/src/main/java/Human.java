@@ -2,7 +2,7 @@ package com.laix.human;
 
 public class Human {
     
-    public String sayHelloWolrd(){
+    public String sayHelloWorld(){
         return "Hello World!";
     }
 
