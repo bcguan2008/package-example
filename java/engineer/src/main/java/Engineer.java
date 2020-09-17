@@ -10,7 +10,6 @@ public class Engineer extends Human{
 
     public static void main(String[] args){
         new Engineer().coding();
-        new Engineer().useTool();
         System.out.println(new Engineer().sayHelloWorld());
     }
 
