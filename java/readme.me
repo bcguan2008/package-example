@@ -1,0 +1,13 @@
+https://docs.google.com/presentation/d/1d81ngw3h449DLa1VpBceB-Ro_CJ7AnPrYHPwI-APVLg/edit#slide=id.p
+
+安装 Java 包到本地：
+
+mvn install:install-file -Dfile=target/human-1.0.0.jar -DgroupId=com.laix.human -DartifactId=human -Dversion=1.0 -Dpackaging=jar
+
+编译 Java 包:
+
+mvn compile 
+
+执行 Java 包:
+
+mvn exec:java -Dexec.mainClass="com.laix.human.Human"
